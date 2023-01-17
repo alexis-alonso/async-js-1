@@ -10,3 +10,10 @@
 -start long-running tasks and continue others at the same time
 
 Ex: setTimeout, callbacks, promises
+
+
+Promises
+-fetchAPI returns a promise [object]
+
+-by using this API, we're sending an HTTP request, which is just sending the message out to the remote server
+-we expect a response back
