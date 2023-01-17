@@ -1,0 +1,12 @@
+-event handlers are themselves async
+-more like callbacks too
+
+-XMLHttpRequest api is async
+
+-sync programming completes code one line at a time (finishing line then move on)
+-async lets the code put off something while the rest finishes then completes when it's ready (?)
+
+-"i will finish later!" 
+-start long-running tasks and continue others at the same time
+
+Ex: setTimeout, callbacks, promises
