@@ -1,4 +1,4 @@
-// call the fetch API to give the var its value
+// call the fetch API to give the var its value...we give fetch() the 'path to the resource'
 const fetchPromise = fetch('https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json');
 
 // remember fetch returns a promise! logging it right after will also tell us what 'state' its in
