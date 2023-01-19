@@ -17,3 +17,6 @@ Promises
 
 -by using this API, we're sending an HTTP request, which is just sending the message out to the remote server
 -we expect a response back
+
+-getting the response back means we also need a function get the actual data (hint: use json() which is an async function)
+

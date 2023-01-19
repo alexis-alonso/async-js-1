@@ -10,3 +10,20 @@ fetchPromise.then((response) => {
 });
 
 console.log("Started request…");
+
+// want to avoid callback hell
+fetchPromise.then((response) => {
+    const jsonPromise = response.json();
+    jsonPromise.then((data => {
+        console.log(data[0].name);
+    }));
+});
+
+// easier to just chain then(), rather than putting one inside another (aka 'promise chaining')
+fetchPromise
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data[0].name);
+});
+
+
